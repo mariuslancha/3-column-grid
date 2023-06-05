@@ -1,0 +1,140 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+    font-size: 15px;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: row;
+}
+
+.column{
+    background-color: skyblue;
+    width: 200px;
+    height: 390px;
+    padding: 20px;
+    font-family:'Lexend Deca', sans-serif;
+}
+
+.column h2{
+    color:  rgb(242, 242, 242);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: xx-large;
+}
+
+
+#number1{
+    background-color: rgb(227, 136, 38);
+    border-radius: 4px 0px 0px 4px;
+}
+
+#number2{
+    background-color: rgb(0, 105, 112);
+}
+
+#number3{
+    background-color: rgb(0, 66, 65);
+    border-radius: 0 4px 4px 0;
+    
+}
+
+p{
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 40%;
+}
+
+#number1 button{
+    background-color:  rgb(242, 242, 242);
+    border-radius: 20px;
+    width: 60%;
+    border: none;
+    color: rgb(227, 136, 38);
+    padding: 10px;
+}
+
+#number2 button{
+    background-color:  rgb(242, 242, 242);
+    border-radius: 20px;
+    width: 60%;
+    border: none;
+    margin-top: 13%;
+    color: rgb(0, 105, 112);
+    padding: 10px;
+}
+
+#number3 button{
+    background-color:  rgb(242, 242, 242);
+    border-radius: 20px;
+    width: 60%;
+    border: none;
+    color: rgb(0, 66, 65);
+    padding: 10px;
+}
+
+#number1 button:hover{
+    background: transparent;
+    cursor: pointer;
+    color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+}
+
+#number2 button:hover{
+    background: transparent;
+    cursor: pointer;
+    color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+}
+
+#number3 button:hover{
+    background: transparent;
+    cursor: pointer;
+    color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    transition: 0.2s ease;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .column{
+        width: 100%;
+    }
+    
+    #number1{
+        border-radius: 4px 4px  0px 0px;
+        padding: 10px 10px 0px 10px;
+    }
+
+    #number2{
+        padding: 0px 10px 0px 10px;
+    }
+
+ #number2 button{
+       margin-top: 0%;
+    }
+
+    #number3{
+        border-radius: 0px 0px 4px 4px;
+        padding: 0px 10px 10px 10px;
+    }
+}
+
