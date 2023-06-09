@@ -50,38 +50,34 @@ body{
     
 }
 
+#number2 p{
+    padding-bottom: 1.3rem;
+}
+
 p{
     color: rgba(255, 255, 255, 0.75);
     margin-bottom: 40%;
 }
 
-#number1 button{
+button {
     background-color:  rgb(242, 242, 242);
     border-radius: 20px;
     width: 60%;
     border: none;
+    padding: 10px;
+    }
+    
+    #number1 button {
     color: rgb(227, 136, 38);
-    padding: 10px;
-}
-
-#number2 button{
-    background-color:  rgb(242, 242, 242);
-    border-radius: 20px;
-    width: 60%;
-    border: none;
-    margin-top: 13%;
+    }
+    
+    #number2 button {
     color: rgb(0, 105, 112);
-    padding: 10px;
-}
-
-#number3 button{
-    background-color:  rgb(242, 242, 242);
-    border-radius: 20px;
-    width: 60%;
-    border: none;
+    }
+    
+    #number3 button {
     color: rgb(0, 66, 65);
-    padding: 10px;
-}
+    }
 
 #number1 button:hover{
     background: transparent;
