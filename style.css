@@ -18,6 +18,7 @@ body{
     justify-content: center;
     text-align: left;
     flex-direction: row;
+    min-height: 50vh;
 }
 
 .column{
@@ -48,10 +49,6 @@ body{
     background-color: rgb(0, 66, 65);
     border-radius: 0 4px 4px 0;
     
-}
-
-#number2 p{
-    padding-bottom: 1.3rem;
 }
 
 p{
