@@ -18,7 +18,7 @@ body{
     justify-content: center;
     text-align: left;
     flex-direction: row;
-    min-height: 50vh;
+    max-height: 90vh;
 }
 
 .column{
